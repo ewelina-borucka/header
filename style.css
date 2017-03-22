@@ -41,26 +41,20 @@ display: none;
   margin: auto;
 }
 
-table {
-  width: 100%;
-  border: 4px #f00 solid;
-}
-
 th {
   padding: 2rem;
   background-color: goldenrod;
 }
 
 td {
-    /*border: 1px solid black;*/
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
 /**************************************/
 
 .parent {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 @supports (position: sticky) {
@@ -70,6 +64,6 @@ td {
     padding: 2em;
     position: sticky;
     text-align: center;
-    top: 0; // Threshold is required
+    top: 0;
   }
 }
