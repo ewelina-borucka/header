@@ -40,17 +40,35 @@ display: none;
   margin: auto;
 }
 
+
+
 /********************** TABLE STICKY HEADER ****************************/
+table {
+  border: 1px #f00 solid;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
 
 th {
   background-color: goldenrod;
+  border: 1px #f00 solid;
 }
 
 th,
 td {
   padding: 1.5rem;
 }
-
 
 .parent {
   border: 2px solid red;
@@ -60,7 +78,7 @@ td {
   .sticky {
     background-color: #BADA55;
     color: #fff;
-    padding: 2em;
+    /*padding: 2em;*/
     position: sticky;
     text-align: center;
     top: 0;
